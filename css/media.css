@@ -1,0 +1,676 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+	/* banner start */
+    .banner{
+        padding-top: 20px;
+        
+    }
+    .banner-content{
+        padding: 30px;
+    }
+    .banner-content .tagline{
+        font-size: 14px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .download-button button{
+        width: 150px;
+    }
+    .download-button img{
+        width: 60%;
+    }
+    .playstore button{
+        margin-left: 10px;
+    }
+
+    /* banner end */
+
+    /* about start */
+    .custom-container{
+        padding:20px ;
+    }
+    .about h1{
+        margin-bottom: 20px;
+    }
+    .gradient-title{
+        font-size: 30px;
+    }
+    .card{
+        margin-bottom: 10px;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .card img{
+        width: 15%;
+        margin-bottom: 20px;
+    }
+    .card h3{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    /* about end */
+
+    /* blog start */
+    .blog{
+        padding: 20px 0 20px 0;
+    }
+    .white-title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .blog h5{
+        font-size: 18px;
+    }
+    .arrow{
+        margin-top: 20px;
+    }
+    .blog p{
+        font-size: 14px;
+    }
+    /* blog end */
+
+    /* help start */
+    .help h1{
+        margin-top: 30px;
+    }
+    .help p{
+        font-size: 14px;
+    }
+    .help ul{
+        margin: 30px 0 20px 0;
+    }
+    .help ul li{
+        font-size: 16px;
+    }
+    /* help end */
+
+    /* privacy start */
+    .privacy{
+        padding: 30px 0 30px 0;
+    }
+    .privacy-card{
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .privacy img{
+        width: 15%;
+        margin-bottom: 20px;
+    }
+    .privacy h5{
+        font-size: 18px;
+    }
+    .privacy p{
+        font-size: 14px;
+    }
+    .privacy-button{
+        margin-left: 0;
+        margin-top: 10px;
+        width:150px;
+        font-size: 16px;
+    }
+    /* privacy end */
+
+    /* faq start */
+    .faq h1{
+        text-align: center;
+    }
+    .acc{
+    margin: 20px 10px 0 10px;
+    }
+    .acc-button{
+        font-size: 18px;
+    }
+    .acc-body{
+        font-size: 14px;
+    }
+    /* faq end */
+
+    /* newsletter start */
+    .newsletter{
+        padding-bottom: 30px;
+    }
+    .newsletter-content{
+        margin: 0 30px 0 30px;
+        padding: 20px;
+    }
+    .newsletter-content img{
+        width: 10%;
+    }
+    .newsletter-content h1{
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .news-form{
+        margin-bottom: 20px;
+    }
+    .news-form input{
+        min-width:250px;;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .news-form button{
+        margin-left: -111px;
+        padding: 10px;
+        min-width:100px;
+        font-size: 14px;
+    }
+    .newsletter-content p{
+        font-size: 12px;
+    }
+    /* newsletter end */
+
+    /* footer start */
+    .footer-content{
+        padding-top: 30px;
+    }
+    .footer-logo img{
+        width: 30%;
+    }
+    .footer-logo p{
+        width: 300px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .footer-menu h3{
+        font-size: 16px;
+    }
+    .footer-menu ul li a{
+        font-size: 12px;
+    }
+    footer .line{
+        margin-top: 30px;
+    }
+    .copyright{
+        padding: 10px 0;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* footer end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+	/* banner start */
+    .banner{
+        padding-top: 20px;
+        
+    }
+    .banner-content{
+        padding: 30px;
+    }
+    .banner-content .tagline{
+        font-size: 14px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .download-button button{
+        width: 150px;
+    }
+    .download-button img{
+        width: 60%;
+    }
+    .playstore button{
+        margin-left: 10px;
+    }
+
+    /* banner end */
+
+    /* about start */
+    .custom-container{
+        padding:20px ;
+    }
+    .about h1{
+        margin-bottom: 20px;
+    }
+    .gradient-title{
+        font-size: 30px;
+    }
+    .card{
+        margin-bottom: 10px;
+        padding: 10px;
+        min-height: 200px;
+    }
+    .card img{
+        width: 15%;
+        margin-bottom: 20px;
+    }
+    .card h3{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    /* about end */
+
+    /* blog start */
+    .blog{
+        padding: 20px 0 20px 0;
+    }
+    .white-title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .blog h5{
+        font-size: 18px;
+    }
+    .arrow{
+        margin-top: 20px;
+    }
+    .blog p{
+        font-size: 14px;
+    }
+    /* blog end */
+
+    /* help start */
+    .help h1{
+        margin-top: 30px;
+    }
+    .help p{
+        font-size: 14px;
+    }
+    .help ul{
+        margin: 30px 0 20px 0;
+    }
+    .help ul li{
+        font-size: 16px;
+    }
+    /* help end */
+
+    /* privacy start */
+    .privacy{
+        padding: 30px 0 30px 0;
+    }
+    .privacy-card{
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .privacy img{
+        width: 15%;
+        margin-bottom: 20px;
+    }
+    .privacy h5{
+        font-size: 18px;
+    }
+    .privacy p{
+        font-size: 14px;
+    }
+    .privacy-button{
+        margin-left: 0;
+        margin-top: 10px;
+        width:150px;
+        font-size: 16px;
+    }
+    /* privacy end */
+
+    /* faq start */
+    .faq h1{
+        text-align: center;
+    }
+    .acc{
+    margin: 20px 10px 0 10px;
+    }
+    .acc-button{
+        font-size: 18px;
+    }
+    .acc-body{
+        font-size: 14px;
+    }
+    /* faq end */
+
+    /* newsletter start */
+    .newsletter{
+        padding-bottom: 30px;
+    }
+    .newsletter-content{
+        margin: 0 30px 0 30px;
+        padding: 20px;
+    }
+    .newsletter-content img{
+        width: 10%;
+    }
+    .newsletter-content h1{
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .news-form{
+        margin-bottom: 20px;
+    }
+    .news-form input{
+        min-width:250px;;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .news-form button{
+        margin-left: -111px;
+        padding: 10px;
+        min-width:100px;
+        font-size: 14px;
+    }
+    .newsletter-content p{
+        font-size: 12px;
+    }
+    /* newsletter end */
+
+    /* footer start */
+    .footer-content{
+        padding-top: 30px;
+    }
+    .footer-logo img{
+        width: 30%;
+    }
+    .footer-logo p{
+        width: 300px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .footer-menu h3{
+        font-size: 16px;
+    }
+    .footer-menu ul li a{
+        font-size: 12px;
+    }
+    footer .line{
+        margin-top: 30px;
+    }
+    .copyright{
+        padding: 10px 0;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* footer end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+	/* banner start */
+    .banner{
+        padding-top: 40px;
+        
+    }
+    .banner-content{
+        padding: 50px;
+    }
+    .banner-content .tagline{
+        font-size: 16px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .banner-content p{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .download-button button{
+        width: 150px;
+    }
+    .download-button img{
+        width: 70%;
+    }
+    .playstore button{
+        margin-left: 10px;
+    }
+    /* banner end */
+
+    /* about start */
+    .custom-container{
+        padding:50px ;
+    }
+    .about h1{
+        margin-bottom: 50px;
+    }
+    .gradient-title{
+        font-size: 40px;
+    }
+    .card{
+        margin-bottom: 20px;
+        padding: 20px;
+        min-height: 250px;
+    }
+    .card img{
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    /* about end */
+
+    /* blog start */
+    .blog{
+        padding: 50px 0 50px 0;
+    }
+    .white-title{
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+    .card-image{
+        margin-bottom: 20px;
+    }
+    .blog h5{
+        font-size: 20px;
+    }
+    .arrow{
+        margin-top: 25px;
+    }
+    .blog p{
+        font-size: 16px;
+    }
+    /* blog end */
+
+    /* help start */
+    .help h1{
+        margin-top: 50px;
+    }
+    .help p{
+        font-size: 16px;
+    }
+    .help ul{
+        margin: 40px 0 20px 0;
+    }
+    .help ul li{
+        font-size: 18px;
+    }
+    /* help end */
+
+    /* privacy start */
+    .privacy{
+        padding: 50px 0 50px 0;
+    }
+    .privacy-card{
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+    .privacy img{
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    .privacy h5{
+        font-size: 20px;
+    }
+    .privacy p{
+        font-size: 16px;
+    }
+    .privacy-button{
+        margin-left: 36%;
+        margin-top: 20px;
+        width:200px;
+        font-size: 18px;
+    }
+    /* privacy end */
+
+    /* faq start */
+    .faq h1{
+        text-align: center;
+    }
+    .acc{
+    margin: 50px 50px 0 50px;
+    }
+    .acc-button{
+        font-size: 20px;
+    }
+    .acc-body{
+        font-size: 16px;
+    }
+    /* faq end */
+
+    /* newsletter start */
+    .newsletter{
+        padding-bottom: 50px;
+    }
+    .newsletter-content{
+        margin: 0 30px 0 30px;
+        padding: 20px;
+    }
+    .newsletter-content img{
+        width: 10%;
+    }
+    .newsletter-content h1{
+        font-size: 30px;
+    }
+    .news-form{
+        margin-bottom: 30px;
+    }
+    .news-form input{
+        min-width:400px;;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .news-form button{
+        margin-left: -111px;
+        padding: 10px;
+        min-width:100px;
+        font-size: 16px;
+    }
+    .newsletter-content p{
+        font-size: 16px;
+    }
+    /* newsletter end */
+
+    /* footer start */
+    .footer-content{
+        padding-top: 50px;
+    }
+    .footer-logo img{
+        width: 40%;
+    }
+    .footer-logo p{
+        width: 200px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .footer-menu h3{
+        font-size: 16px;
+    }
+    .footer-menu ul li a{
+        font-size: 12px;
+    }
+    footer .line{
+        margin-top: 50px;
+    }
+    .copyright{
+        padding: 16px 0;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* footer end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* header start */
+    .logo img{
+       width: 100%;
+    }
+    .nav-menu ul li{
+        margin-right:10px;
+    }
+    .nav-menu ul li a{
+        font-size: 18px;
+    }
+    .custom-button button{
+        width: 100px;
+        font-size: 18px;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .download-button button{
+        width: 200px;
+    }
+    /* banner end */
+
+	/* about start */
+    .gradient-title{
+        font-size: 50px;
+    }
+    .card{
+        min-height: 420px;
+    }
+    .card img{
+        width: 20%;
+        margin-bottom: 30px;
+    }
+    /* about end */
+
+    /* blog start */
+    .white-title{
+        font-size: 50px;
+    }
+    /* blog end */
+
+    /* help start */
+    .help-banner{
+        margin-top: 70px;
+        width: 110%;
+    }
+    /* help end */
+
+    /* privacy start */
+    .privacy-card{
+        min-height: 400px;
+        padding: 20px;
+    }
+    .privacy-button{
+        margin-left: 37%;
+        margin-top: 40px;
+        width:200px;
+    }
+    /* privacy end */
+
+    /* newsletter start */
+    .newsletter-content{
+        margin: 0 100px 0 100px;
+
+    }
+    .newsletter-content img{
+        width: 10%;
+    }
+    /* newsletter end */
+}
+
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	
+}
+/* Extra Extra large devices (extra extra large desktops, 1400px and up) */
+@media (min-width: 1400px){
+	
+}
