@@ -8,22 +8,15 @@ body{
 }
 /* common end */
 
-/* keyframes */
-@keyframes fadein{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
 /* header start */
 .logo img{
     width: 100%;
 }
 .toggle{
     background-image: url('../images/menu.png');
+}
+.nav-toggler:focus{
+    box-shadow: none;
 }
 .nav-menu ul li{
 	margin-right:30px;
@@ -58,12 +51,6 @@ body{
 /* banner start */
 .banner{
     padding-top: 40px;
-    /* animation */
-    -webkit-animation: fadein 5s;
-    -moz-animation:fadein 5s ;
-    -ms-animation: fadein 5s;
-    -o-animation: fadein 5s;
-    animation: fadein 5s;
 }
 .banner-content{
     padding: 80px 120px 150px 120px;
@@ -310,20 +297,29 @@ body{
 /* privacy end */
 
 /* faq start */
-.faq{}
+.faq h1{
+    text-align: center;
+}
 .acc{
    margin: 80px 80px 0 80px;
+}
+.acc-heading{
+    min-height: 92px;
+}
+.acc-body{
+    min-height: 120px;
 }
 /* faq end */
 
 /* newsletter start */
 .newsletter{
     padding-bottom: 100px;
+    text-align: center;
 }
 .newsletter-content{
-    margin: 0 150px 0 150px;
-    padding: 40px;
-    background:url('../images/news-bg.png');
+    margin: 0 160px 0 160px;
+    padding: 62px;
+    background:url('../images/newsletter-bg.png');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -377,11 +373,13 @@ body{
     color: #05A6D3;
 }
 .newsletter-content p{
+    padding: 0 50px 0 50px;
     color:#4D4D4D;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
-    line-height: 156%; /* 28.08px */
+    text-align: center;
+    line-height: normal
 }
 /* newsletter end */
 
