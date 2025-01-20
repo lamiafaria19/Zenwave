@@ -89,7 +89,7 @@
 
     /* blog start */
     .blog{
-        padding: 50px 10px 50px 10px;
+        padding: 50px 0 50px 0;
     }
     .white-title{
         margin-bottom: 30px;
@@ -141,7 +141,7 @@
 
     /* privacy start */
     .privacy{
-        padding: 80px 10px 80px 10px;
+        padding: 80px 0 80px 0;
     }
     .privacy-card{
         min-height: 260px;
@@ -160,9 +160,9 @@
     }
     .privacy-button{
         padding: 8px;
-        margin-left: 28%;
+        margin-left: 21%;
         margin-top: 30px;
-        width:120px;
+        width:170px;
         font-size: 18px;
     }
     /* privacy end */
