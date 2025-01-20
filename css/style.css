@@ -139,7 +139,7 @@ body{
     background: #F8F8F8;
 }
 .card img{
-    width: 10%;
+    width: 15%;
     margin-bottom: 30px;
 }
 .card h3{
@@ -331,7 +331,7 @@ body{
     text-align: center;
 }
 .newsletter-content img{
-    width: 5%;
+    width: 8%;
 }
 .newsletter-content h1{
     font-size: 50px;
