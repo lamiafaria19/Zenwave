@@ -1,5 +1,5 @@
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px){
+@media (max-width: 424.98px){
     /* header start */
     .logo img{
         width: 100%;
@@ -24,24 +24,32 @@
         
     }
     .banner-content{
-        padding: 20px;
+        padding: 48px 10px 400px 10px;
+        background-image: url('../images/mobile-banner.webp');
+        background-size: auto;
+        background-repeat:no-repeat;
+        background-position:center;
+        box-shadow: 0px 4px 20.6px 0px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        border-radius: 37px;
     }
     .banner-content .tagline{
         font-size: 12px;
     }
     .banner-content h1{
+        margin: 24px 0;
         font-size: 20px;
     }
     .banner-content p{
-        margin-bottom: 10px;
+        margin-bottom: 24px;
         font-size: 12px;
     }
     .download-button button{
-        padding: 3px;
-        width: 100px;
+        padding: 8px;
+        width: 120px;
     }
     .download-button img{
-        width: 60%;
+        width: 90%;
     }
     .playstore button{
         margin-left: 10px;
@@ -50,98 +58,119 @@
     /* banner end */
 
     /* about start */
+    .about{
+        padding: 80px 0;
+    }
     .custom-container{
         padding:20px ;
     }
     .about h1{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .gradient-title{
-        font-size: 20px;
+        font-size: 25px;
     }
     .card{
         margin-bottom: 10px;
-        padding: 10px;
-        min-height: 150px;
+        padding: 20px;
+        min-height: 250px;
     }
     .card img{
-        width: 12%;
-        margin-bottom: 10px;
+        width: 20%;
+        margin-bottom: 20px;
     }
     .card h3{
-        font-size: 16px;
+        font-size: 20px;
     }
     .card p{
-        font-size: 12px;
+        font-size: 15px;
     }
     /* about end */
 
     /* blog start */
     .blog{
-        padding: 20px 0 20px 0;
+        padding: 50px 0 50px 0;
     }
     .white-title{
-        margin-bottom: 10px;
-        font-size: 20px;
+        margin-bottom: 30px;
+        font-size: 25px;
         line-height: normal;
     }
     .card-image{
         margin-bottom: 10px;
     }
     .blog h5{
-        font-size: 16px;
+        font-size: 20px;
     }
     .arrow{
         margin-top: 15px;
     }
     .blog p{
-        font-size: 12px;
+        font-size: 15px;
     }
     /* blog end */
 
     /* help start */
+    .help{
+        padding: 80px 0;
+        background-image: none;
+    }
+    .help-container{
+        padding: 20px;
+    }
+    .help-content{
+        order: 2;
+    }
     .help h1{
         margin-top: 0;
     }
     .help p{
-        font-size: 12px;
+        font-size: 15px;
     }
     .help ul{
-        margin: 10px 0 10px 0;
+        margin: 40px 0 30px 0;
     }
     .help ul li{
-        font-size: 14px;
+        font-size: 20px;
+    }
+    .help-image{
+        margin-bottom: 80px;
+        order: 1;
     }
     /* help end */
 
     /* privacy start */
     .privacy{
-        padding: 20px 0 20px 0;
+        padding: 80px 0 80px 0;
     }
     .privacy-card{
+        min-height: 260px;
         margin-bottom: 10px;
         padding: 20px;
     }
     .privacy img{
-        width: 15%;
-        margin-bottom: 10px;
+        width: 30%;
+        margin-bottom: 30px;
     }
     .privacy h5{
-        font-size: 16px;
+        font-size: 20px;
     }
     .privacy p{
-        font-size: 12px;
+        font-size: 15px;
     }
     .privacy-button{
-        padding: 5px;
+        padding: 8px;
         margin-left: 0;
-        margin-top: 10px;
-        width:100px;
-        font-size: 14px;
+        margin-top: 30px;
+        width:120px;
+        font-size: 18px;
     }
     /* privacy end */
 
     /* faq start */
+    .faq{
+        padding: 80px 0;
+    }
     .faq h1{
         text-align: center;
     }
@@ -160,14 +189,15 @@
 
     /* newsletter start */
     .newsletter{
-        padding-bottom: 20px;
+        padding-bottom: 80px;
     }
     .newsletter-content{
         margin: 0 20px 0 20px;
         padding: 10px;
+        background-image: url('../images/news-mobile-banner.webp');
     }
     .newsletter-content img{
-        width: 10%;
+        width: 20%;
     }
     .newsletter-content h1{
         font-size: 18px;
@@ -177,7 +207,7 @@
         margin-bottom: 10px;
     }
     .news-form input{
-        min-width:200px;;
+        min-width:220px;;
         padding: 10px;
         font-size: 12px;
     }
@@ -195,14 +225,13 @@
 
     /* footer start */
     .footer-content{
-        padding-top: 20px;
+        padding-top: 40px;
     }
     .footer-logo img{
-        width: 30%;
+        width: 50%;
     }
     .footer-logo p{
-        width: 300px;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 12px;
     }
     .footer-menu h3{
@@ -223,7 +252,7 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 425px) and (max-width: 767.98px){
     /* header start */
     .logo img{
         width: 100%;
@@ -244,11 +273,11 @@
 
 	/* banner start */
     .banner{
-        padding-top: 20px;
+        padding-top: 30px;
         
     }
     .banner-content{
-        padding: 30px;
+        padding: 80px 0;
     }
     .banner-content .tagline{
         font-size: 14px;
@@ -257,14 +286,14 @@
         font-size: 30px;
     }
     .banner-content p{
-        margin-bottom: 20px;
-        font-size: 14px;
+        margin-bottom: 30px;
+        font-size: 15px;
     }
     .download-button button{
         width: 150px;
     }
     .download-button img{
-        width: 60%;
+        width: 80%;
     }
     .playstore button{
         margin-left: 10px;
@@ -274,7 +303,7 @@
 
     /* about start */
     .custom-container{
-        padding:20px ;
+        padding:80px 20px ;
     }
     .about h1{
         margin-bottom: 20px;
@@ -284,27 +313,27 @@
     }
     .card{
         margin-bottom: 10px;
-        padding: 10px;
-        min-height: 200px;
+        padding: 20px;
+        min-height: 250px;
     }
     .card img{
         width: 15%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .card h3{
-        font-size: 18px;
+        font-size: 20px;
     }
     .card p{
-        font-size: 14px;
+        font-size: 15px;
     }
     /* about end */
 
     /* blog start */
     .blog{
-        padding: 20px 0 20px 0;
+        padding: 40px 0 80px 0;
     }
     .white-title{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 30px;
     }
     .blog h5{
@@ -319,17 +348,31 @@
     /* blog end */
 
     /* help start */
+    .help{
+        padding: 80px 0;
+        background-image: none;
+    }
+    .help-container{
+        padding: 0 30px;
+    }
+    .help-content{
+        order: 2;
+    }
     .help h1{
         margin-top: 30px;
     }
     .help p{
-        font-size: 14px;
+        font-size: 15px;
     }
     .help ul{
-        margin: 30px 0 20px 0;
+        margin: 50px 0 20px 0;
     }
     .help ul li{
-        font-size: 16px;
+        font-size: 18px;
+    }
+    .help-image{
+        margin-bottom: 50px;
+        order: 1;
     }
     /* help end */
 
@@ -340,16 +383,17 @@
     .privacy-card{
         margin-bottom: 20px;
         padding: 20px;
+        min-height: 250px;
     }
     .privacy img{
-        width: 15%;
-        margin-bottom: 20px;
+        width: 20%;
+        margin-bottom: 30px;
     }
     .privacy h5{
-        font-size: 18px;
+        font-size: 20px;
     }
     .privacy p{
-        font-size: 14px;
+        font-size: 15px;
     }
     .privacy-button{
         margin-left: 0;
@@ -376,14 +420,14 @@
 
     /* newsletter start */
     .newsletter{
-        padding-bottom: 30px;
+        padding-bottom: 80px;
     }
     .newsletter-content{
-        margin: 0 30px 0 30px;
-        padding: 20px;
+        margin: 0 30px;
+        padding: 30px 0;
     }
     .newsletter-content img{
-        width: 10%;
+        width: 20%;
     }
     .newsletter-content h1{
         font-size: 20px;
@@ -393,7 +437,7 @@
         margin-bottom: 20px;
     }
     .news-form input{
-        min-width:250px;;
+        min-width:280px;;
         padding: 15px;
         font-size: 14px;
     }
@@ -404,30 +448,30 @@
         font-size: 14px;
     }
     .newsletter-content p{
-        font-size: 12px;
+        font-size: 15px;
     }
     /* newsletter end */
 
     /* footer start */
     .footer-content{
-        padding-top: 30px;
+        padding-top: 80px;
     }
     .footer-logo img{
-        width: 30%;
+        width: 40%;
     }
     .footer-logo p{
-        width: 300px;
-        margin-top: 20px;
+        margin: 20px 0;
         font-size: 14px;
     }
     .footer-menu h3{
+        margin-top: 30px;
         font-size: 16px;
     }
     .footer-menu ul li a{
         font-size: 12px;
     }
     footer .line{
-        margin-top: 30px;
+        margin-top: 80px;
     }
     .copyright{
         padding: 10px 0;
@@ -518,17 +562,31 @@
     /* blog end */
 
     /* help start */
+    .help{
+        background-image: none;
+    }
+    .help-content{
+        order: 2;
+    }
     .help h1{
-        margin-top: 50px;
+        margin-top: 0;
     }
     .help p{
         font-size: 16px;
     }
     .help ul{
-        margin: 40px 0 20px 0;
+        margin: 80px 0 30px 0;
     }
     .help ul li{
+        margin-bottom: 20px;
         font-size: 18px;
+    }
+    .help-image{
+        margin-bottom: 50px;
+        order: 1;
+    }
+    .help-image img{
+        width: 100%;
     }
     /* help end */
 
