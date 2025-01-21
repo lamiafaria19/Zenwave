@@ -31,6 +31,10 @@ body{
     font-weight: 600;
     color: #181818 !important;
 }
+.custom-button button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .custom-button button{
     width: 176px;
     padding: 10px;
@@ -44,6 +48,9 @@ body{
 }
 .custom-button button:hover{
     background: transparent;
+   
+}
+.custom-button button a:hover{
     color: #05A6D3;
 }
 /* header end */
