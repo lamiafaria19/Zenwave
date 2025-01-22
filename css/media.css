@@ -167,9 +167,34 @@
     }
     /* privacy end */
 
+    /* contact start */
+    .contact{
+        padding-top: 80px;
+    }
+    .contact-content{
+        order: 2;
+    }
+    .contact h1{
+        margin-top: 20px;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+    .contact-info{
+        margin-top: 20px;
+    }
+    .contact-info img{
+        width: 15%;
+        margin-bottom: 10px;
+    }
+    .contact-banner{
+        order: 1;
+    }
+    /* contact end */
+
     /* faq start */
     .faq{
-        padding: 80px 0;
+        padding: 60px 0;
     }
     .faq h1{
         text-align: center;
@@ -403,6 +428,28 @@
     }
     /* privacy end */
 
+    /* contact start */
+    .contact{
+        padding-top: 30px;
+    }
+    .contact-content{
+        order: 2;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+    .contact-info{
+        margin-top: 20px;
+    }
+    .contact-info img{
+        width: 10%;
+        margin-bottom: 10px;
+    }
+    .contact-banner{
+        order: 1;
+    }
+    /* contact end */
+
     /* faq start */
     .faq h1{
         text-align: center;
@@ -616,6 +663,31 @@
     }
     /* privacy end */
 
+    /* contact start */
+    .contact{
+        padding-top: 50px;
+    }
+    .contact-content{
+        order: 2;
+    }
+    .contact p{
+        font-size: 16px;
+    }
+    .contact-info{
+        margin-top: 30px;
+    }
+    .contact-info img{
+        width: 8%;
+        margin-bottom: 20px;
+    }
+    .contact-banner{
+        order: 1;
+    }
+    .contact-banner img{
+        width: 100%;
+    }
+    /* contact end */
+
     /* faq start */
     .faq h1{
         text-align: center;
@@ -757,6 +829,15 @@
         width:200px;
     }
     /* privacy end */
+
+    /* contact start */
+    .contact h1{
+        margin-top: 0;
+    }
+    .contact-info{
+        margin-top: 80px;
+    }
+    /* contact end */
 
     /* newsletter start */
     .newsletter-content{

@@ -4673,7 +4673,7 @@ textarea.form-control-lg {
   color: #0C1528;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/faq-arrow.png");
+  background-image: url("../images/faq-arrow.webp");
   transform: rotate(-180deg);
 }
 .accordion-button::after {
@@ -4682,7 +4682,7 @@ textarea.form-control-lg {
   height: 24px;
   margin-left: auto;
   content: "";
-  background-image: url("../images/faq-arrow.png");
+  background-image: url("../images/faq-arrow.webp");
   background-repeat: no-repeat;
   background-size: 24px;
   transition: transform 0.2s ease-in-out;
