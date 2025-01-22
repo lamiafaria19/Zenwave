@@ -915,7 +915,10 @@
 
     /* contact start */
     .contact-container{
-        margin: 0 120px;
+        margin: 0 180px;
+    }
+    .contact-banner img{
+        width: 90%;
     }
     /* contact end */
 
