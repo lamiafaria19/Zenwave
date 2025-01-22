@@ -913,6 +913,12 @@
     }
     /* privacy end */
 
+    /* contact start */
+    .contact-container{
+        margin: 0 120px;
+    }
+    /* contact end */
+
     /* newsletter start */
     .newsletter-content{
         min-height: 435px;
