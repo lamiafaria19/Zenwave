@@ -187,6 +187,9 @@
         width: 15%;
         margin-bottom: 10px;
     }
+    .contact-info h5{
+        font-size: 18px;
+    }
     .contact-banner{
         order: 1;
     }
@@ -445,6 +448,9 @@
         width: 10%;
         margin-bottom: 10px;
     }
+    .contact-info h5{
+        font-size: 18px;
+    }
     .contact-banner{
         order: 1;
     }
@@ -679,6 +685,9 @@
     .contact-info img{
         width: 8%;
         margin-bottom: 20px;
+    }
+    .contact-info h5{
+        font-size: 20px;
     }
     .contact-banner{
         order: 1;

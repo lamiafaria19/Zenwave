@@ -327,6 +327,14 @@ body{
     width: 20%;
     margin-bottom: 20px;
 }
+.contact-info h5{
+    color: #0C1528;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 .contact-banner img{
     width: 100%;
 }
