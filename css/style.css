@@ -62,7 +62,7 @@ body{
 .banner-content{
     padding: 80px 120px 150px 120px;
     background-image: url('../images/banner.webp');
-    background-size: auto;
+    background-size: cover;
 	background-repeat:no-repeat;
 	background-position:center;
     box-shadow: 0px 4px 20.6px 0px rgba(0, 0, 0, 0.08);

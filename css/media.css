@@ -223,6 +223,7 @@
         margin: 0 20px 0 20px;
         padding: 10px;
         background-image: url('../images/news-mobile-banner.webp');
+        background-size: cover;
     }
     .newsletter-content img{
         width: 20%;
